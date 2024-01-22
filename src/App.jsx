@@ -13,7 +13,7 @@ function App() {
     <>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/rice-box/" element={<Homepage />} />
       </Routes>
       <DisclaimerModal show={modalShow} onClick={closeModalHandler} />
     </>

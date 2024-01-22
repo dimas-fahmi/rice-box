@@ -9,7 +9,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="#home" className="d-block m-auto">
           <img
-            src="/resources/images/logos/rice_box_logo.png"
+            src="./resources/images/logos/rice_box_logo.png"
             alt="Rice Box Logo"
             className="nb_navbar-brand"
           />
