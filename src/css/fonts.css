@@ -1,0 +1,22 @@
+/* Fonts Library */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Quicksand:wght@400;500&family=Roboto&family=Roboto+Condensed:wght@500&family=Rubik:wght@600;700&display=swap");
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+}
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.roboto-condensed {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+}

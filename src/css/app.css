@@ -1,0 +1,44 @@
+/* Application's Style : Configurations, ETC */
+
+:root {
+  --nb-primary: #f5efef;
+  --nb-secondary: #b88917;
+  --nb-accent-primary: #735240;
+  --nb-accent-secondary: #f50000;
+}
+
+body {
+  background-color: var(--nb-primary) !important;
+}
+
+.nb-bg-primary {
+  background-color: var(--nb-primary);
+}
+
+.nb-bg-secondary {
+  background-color: var(--nb-secondary);
+}
+
+.nb-bg-accent-primary {
+  background-color: var(--nb-accent-primary);
+}
+
+.nb-bg-accent-secondary {
+  background-color: var(--nb-accent-secondary);
+}
+
+.nb-color-primary {
+  color: var(--nb-primary);
+}
+
+.nb-color-secondary {
+  color: var(--nb-secondary);
+}
+
+.nb-color-accent-primary {
+  color: var(--nb-accent-primary);
+}
+
+.nb-color-accent-secondary {
+  color: var(--nb-accent-secondary);
+}

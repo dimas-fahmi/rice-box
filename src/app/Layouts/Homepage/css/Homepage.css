@@ -1,0 +1,97 @@
+.homepage-layout .homepage-hero.large {
+  position: relative;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 640px;
+  max-height: 640px;
+  background-color: #e7d2b9;
+  overflow: hidden;
+
+  & > .overlay-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: grid;
+    grid-template-areas: "label decor";
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 1fr;
+
+    & > .label {
+      grid-area: label;
+      display: flex;
+      align-items: center;
+
+      & > div {
+        flex-grow: 1;
+      }
+    }
+
+    & > .decor {
+      grid-area: decor;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+
+      & .backdrop {
+        display: flex;
+        justify-content: center;
+
+        & img {
+          min-width: 95%;
+          max-width: 95%;
+          min-height: 100%;
+          max-height: 100%;
+        }
+      }
+    }
+  }
+}
+
+.homepage-layout .homepage-hero.full {
+  display: none;
+  position: relative;
+  min-width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 720px;
+  padding-top: 7.7rem;
+  align-items: start;
+  background-color: #e7d2b9;
+
+  & > .backdrop {
+    z-index: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+
+    & > img {
+      min-width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  & > .content {
+    padding: 1rem;
+    overflow: hidden;
+    z-index: 5;
+
+    & > div {
+      max-width: 350px;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .homepage-layout .homepage-hero.large {
+    display: none;
+  }
+
+  .homepage-layout .homepage-hero.full {
+    display: flex;
+  }
+}
